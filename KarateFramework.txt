@@ -1,0 +1,7 @@
+karate Framework :
+------------------------
+	Karate is a BDD automation framework. It consists of the feature file with .feature extension and the test runner file.
+In order to use the Karate framework, we need to add couple of dependencies like junit and karate-junit
+In the feature file, we write the tests using the Gherkin keywords, 'GIVEN', 'WHEN', 'THEN', 'AND', 'BUT'.
+The Test Runner file is used to execute the tests in the feature file. We need to use @RunWith(Karate.class)
+and use the @KarateOptions to specify the tags for execution.
